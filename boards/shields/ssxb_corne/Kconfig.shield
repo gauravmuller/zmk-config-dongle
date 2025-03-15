@@ -3,3 +3,6 @@ config SHIELD_SSXB_CORNE_LEFT
 
 config SHIELD_SSXB_CORNE_RIGHT
     def_bool $(shields_list_contains,ssxb_corne_right)
+
+config SHIELD_SSXB_CORNE_DONGLE
+    def_bool $(shields_list_contains,ssxb_corne_dongle)
